@@ -30,7 +30,7 @@ const setLocalData = async () => {
     await setPic(pic);
     genIndex(markup);
   } catch (e) {
-    throw new Error(e.message);
+    //throw new Error(e.message);
   }
 };
 
@@ -56,7 +56,7 @@ const setRemoteData = async () => {
     await setPic(pic);
     genIndex(markup);
   } catch (e) {
-    throw new Error(e.message);
+    // throw new Error(e.message);
   }
 };
 
